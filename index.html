@@ -6,14 +6,10 @@
     ================================================== -->
     <meta charset="utf-8">
     <title>mitochondrial</title>
-    <meta name="description" content="Join us in our mission to safeguard 
-Medical Professionals in our battle against 
-COVID-19. We are Mitochondrial - an upcoming product firm by a group of students from 
-IIT Guwahati - and we are currently vying to bring intubation boxes to help our doctors 
-fight the novel coronavirus.">
+    <meta name="description" content="Teaching Machines The Human Way">
     <meta name="author" content="Mitochondrial">
-    <meta name="keywords" content="Mitochondrial.in, Mitochondrial company, mitochondrial.in, covid 19, COVID-19, intubation box">	
-    <meta name="google-site-verification" content="6g0FNvZk7W2zKE2CPomax8HfhUSqWNbUMC0QJFoxD8c" />		
+    <meta name="keywords" content="Mitochondrial.in, Mitochondrial company, mitochondrial.in">
+    <meta name="google-site-verification" content="6g0FNvZk7W2zKE2CPomax8HfhUSqWNbUMC0QJFoxD8c" />
     <!-- mobile specific metas
     ================================================== -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -28,7 +24,7 @@ fight the novel coronavirus.">
     ================================================== -->
     <script src="js/modernizr.js"></script>
     <script src="js/pace.min.js"></script>
-    
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162904588-1"></script>
 <script>
@@ -37,8 +33,8 @@ fight the novel coronavirus.">
   gtag('js', new Date());
 
   gtag('config', 'UA-162904588-1');
-</script>	
-	
+</script>
+
     <!-- favicons
     ================================================== -->
     <link rel="shortcut icon" href="images/logo-gc.png" type="image/x-icon">
@@ -52,52 +48,29 @@ html {
   box-sizing: inherit;
 }
 
-.column {
-  float: left;
-  width: 23%;
-  margin-bottom: 160px;
-  padding: 0 10px;
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: sans-serif;
+    text-align: center;
 }
 
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
+.logo-container {
+    margin-bottom: 20px;
 }
 
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.logo-container img {
+    max-width: 300px; /* Adjust as needed */
+    height: auto;
 }
 
-.container {
-  padding: 0 16px;
-}
-
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-.title {
-  color: grey;
-}
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
+.caption {
+    font-size: 2em; /* Adjust as needed */
+    color: #eee;
 }
 </style>
 
@@ -105,488 +78,10 @@ html {
 
 <body id="top">
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/logo.png" alt="Homepage">
-            </a>
-        </div> <!-- end header-logo -->
-
-        <nav class="header-nav">
-
-            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
-
-            <div class="header-nav__content">
-                <h3>Mitochondrial</h3>
-                
-                <ul class="header-nav__list">
-                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
-                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
-                    <li><a class="smoothscroll"  href="#services" title="services">Services</a></li>
-                    <li><a class="smoothscroll"  href="#team" title="team">Team</a></li>
-                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
-                </ul>
-    
-                <p><br><br><br><br><br><br></p>
-    
-                <ul class="header-nav__social">
-                    <li>
-                        <a href="https://www.facebook.com/mitochondrial.in/" target="_blank"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/mitochondrial.in/" target="_blank"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul>
-
-            </div> <!-- end header-nav__content -->
-
-        </nav> <!-- end header-nav -->
-
-        <a class="header-menu-toggle" href="#0">
-            <span class="header-menu-icon"></span>
-        </a>
-
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=top>
-
-        <div class="shadow-overlay"></div>
-
-        <div class="home-content">
-
-            <div class="row home-content__main">
-                <h1>
-                Welcome to <br>
-                Mitochondrial.
-                </h1>
-
-                <p>
-                Join us in our mission to safeguard <br>
-                Medical professionals in our battle against <br>COVID-19
-                </p>
-            </div> <!-- end home-content__main -->
-
-        </div> <!-- end home-content -->
-
-        <ul class="home-sidelinks">
-            <li><a class="smoothscroll" href="#about">About<span>who we are</span></a></li>
-            <li><a class="smoothscroll" href="#services">Services<span>what we do</span></a></li>
-            <li><a  class="smoothscroll" href="#contact">Contact<span>get in touch</span></a></li>
-        </ul> <!-- end home-sidelinks -->
-
-        <ul class="home-social">
-            <li class="home-social-title">Follow Us</li>
-            <li><a href="https://www.facebook.com/mitochondrial.in/" target="_blank">
-                <i class="fab fa-facebook"></i>
-                <span class="home-social-text">Facebook</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-twitter"></i>
-                <span class="home-social-text">Twitter</span>
-            </a></li>
-            <li><a href="#0">
-                <i class="fab fa-linkedin"></i>
-                <span class="home-social-text">LinkedIn</span>
-            </a></li>
-        </ul> <!-- end home-social -->
-
-        <a href="#about" class="home-scroll smoothscroll">
-            <span class="home-scroll__text">Scroll Down</span>
-            <span class="home-scroll__icon"></span>
-        </a> <!-- end home-scroll -->
-
-    </section> <!-- end s-home -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id='about' class="s-about">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who We Are</h3>
-                <h1 class="display-1">We’re sprinting to do our part to help our medical professionals amid the pandemic.<br></h1>
-                <h2 class="display-2"><span>We are </span><span style="color: #cc147f;">Mitochondrial</span><span> - an upcoming product firm by a group of students from IIT Guwahati - and we are currently vying to bring intubation boxes to help our doctors fight the novel coronavirus.</h2>
-
-        <img src="images/poster_final.png" alt="Intubation_Box_Mitochondrial" style="width:100%">
-            </div>
-        </div> <!-- end section-header -->
-
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                Also called aerosol boxes, these are essential pieces of personnel protective equipment (PPEs) for our 
-                medical staff on the frontline and are currently short on supply in our fight against the Coronavirus Infectious Disease - 2019. 
-                Our discussions with doctors, medical students and our professors have established that a most effective way to deal with the ongoing shortage of PPE
-                is to provide alternatives to obstruct the transfer of moisture from the patient to the staff, allowing the care professional to assist the patient 
-                with minimal risk. Taking advantage of the open-source design by Dr. Hsien Yung Lai from Taiwan, we’ve re-worked the box for the present context: 
-                making it easy to manufacture amid the national lockdown and simpler still to assemble while keeping it cost-effective, 
-                so that our heroes may continue to serve, unnerved.
-                <br><br>
-                We aim to build and supply these boxes to government hospitals, free of cost. 
-                Please help us serve as much point-of-care medical staff, as possible. They are our only line of defence against the SARS-CoV-2. 
-                Let's come forward to save them, for them to save us. 
-
-                </p>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row">
-                
-            <div class="about-process process block-1-2 block-tab-full">
-
-                <div class="process__vline-left"></div>
-                <div class="process__vline-right"></div>
-
-                <div class="col-block process__col" data-item="1" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Design</h4>
-
-                        <p>
-                        Ours is an assembly optimized version of the open-source design by Dr. Hsien Yung Lai, making the low-cost and reusable PPE 
-                        even more cost-effective and more efficient for manufacturing, storage and distribution. 
-                        We’ve made it such that one may assemble it themselves, on-site. 
-                        These (modifications) shall prove crucial in protecting our medical staff using minimum resources amid a nationwide lockdown. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="3" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Funding</h4>
-
-                        <p>
-                        We ask you to help us here so that we may provide these to government-run hospitals, absolutely free of cost. 
-                        Not only would you be sending your love with the box, but you would be sending them your word too. 
-                        We give you the opportunity to pen down what you’d like our brave-hearts to know, as we’ll print your word behind the kit user-manual.
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="2" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Prototyping & Feedback</h4>
-
-                        <p>
-                        Through a rigorous design process involving subject matter experts such as Dr. Johann Christoper (MD, DNB, Care Hospitals), Dr. Abhijeet Bhati (ENT, NEIGRIHMS), Prof. S. Kanagaraj (Biomedical Systems, Department of Mechanical Engineering, IIT Guwahati),  Dr. Sajan. Kapil (Manufacturing, Department of Mechanical Engineering, IIT Guwahati) and students of medicine including Mr. Rijul Dogra (Prefinal year, MBBS, GMC Jammu) we have ensured efficacy and practicality. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-block process__col" data-item="4" data-aos="fade-up">
-                    <div class="process__text">
-                        <h4>Manufacturing & Delivery</h4>
-
-                        <p>
-                        Their ease of manufacturing implies the ability to produce them anywhere in the country and their ease of transportation and storage
-                        implies the ability to deliver these well within schedule. Their ease of assembly implies that we deliver them boxed like pizzas, 
-                        seasoned with zip-ties, along with the heartfelt letter you’ve penned, for a nurse to open and be good to go, 
-                        save a life while protecting her own.
-                        </p>
-                    </div>
-                </div>
-
-            </div> <!-- end process -->
-
-        </div> <!-- end about-stats -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id='services' class="s-services light-gray">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">What We Do</h3>
-                <h1 class="display-1">We’ve temporarily suspended development on all other projects
-                                      to fast-track those that shall help the fight against the coronavirus.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row" data-aos="fade-up">
-            <div class="col-full">
-                <p class="lead">
-                <span style="color: #cc147f;"><b>Our doctors are our one and final line of defense, let's come forward to save them, for them to save us.</b></span><br>
-                Visit our <a style="color: #cc147f; text-transform: capitalize;" href="https://www.ketto.org/fundraiser/fundraiser-intubation-boxes?payment=form" target="_blank"><strong><u>ketto campaign</u></strong></a> to help us provide these boxes free of cost to government hospitals. <br>#IndiaFightsBack #SaveOurDoctors<br>
-        
-        <img src="images/sars_vita16.JPG" alt="Intubation_Box_Mitochondrial" style="width:100%">    
-	<h2 class="h4" style="color: #cc147f; padding-right: 100px;">Upcoming Products:</h2>
-            </div>
-        </div> <!-- end about-desc -->
-
-        <div class="row services-list block-1-3 block-m-1-2 block-tab-full">
-            <div class="col-block service-item " data-aos="fade-up">
-                <div class="service-icon service-icon--brand-identity">
-                    <i class="icon-syringe"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4" style="color: #cc147f;">Rehabilitation</h3>
-                    <p>Break a leg? <br>
-                      If you need a crutch, we’re here with one.
-                      Or better, more than just a one.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--illustration">
-                    <i class="icon-headset"></i>
-                </div>
-                <div class="service-text">
-                    <h3 class="h4" style="color: #cc147f;">Interaction</h3>
-                    <p>Tired tapping your phone? <br>
-                    We’re going to have your fingers relax.<br> 
-                    Just the fingers.
-                    </p>
-                </div>
-            </div>
-
-            <div class="col-block service-item" data-aos="fade-up">
-                <div class="service-icon  service-icon--web-design">
-                    <i class="icon-wand"></i>
-                </div>  
-                <div class="service-text">
-                    <h3 class="h4" style="color: #cc147f;">Assistance</h3>
-                    <p>Making white canes brighter,
-                       one prompt at a time. Your eyes aren’t the only things that can let you see.
-                    </p>
-                </div>
-            </div>
-
-            
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- team
-    ================================================== -->
-    <section id='team' class="s-works">
-       
-<div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead">Who are we</h3>
-                <h1 class="display-1">The Team</h1>
-            </div>
-        </div>
-
-<!-- Page Content -->
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <img src="images/avatars/sanchit.jpg" alt="Sanchit Jhunjhunwala" style="width:100%">
-      <div class="container">
-        <h2>Sanchit <br>Jhunjhunwala</h2>
-        <p class="title">Mechanical Engineer,<br>Biomedical Design.<br><br></p>
-        <p><button onclick="window.location.href = 'mailto:sanchit@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
+    <div class="logo-container">
+        <img src="images/logo.png" alt="Mitochondrial Logo">
     </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="images/avatars/prateek.jpg" alt="Prateek Manocha" style="width:100%">
-      <div class="container">
-        <h2>Prateek <br> Manocha</h2>
-        <p class="title">Deep Learning, AI &<br>Product Development.<br><br></p>
-        <p><button onclick="window.location.href = 'mailto:prateek@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="images/avatars/vrishank.jpg" alt="Vrishank Bharadwaj" style="width:100%">
-      <div class="container">
-        <h2>Vrishank <br>Bhardwaj</h2>
-        <p class="title">FinTech,<br>Data Engineer.<br><br></p>
-        <p></p>
-        <p><button onclick="window.location.href = 'mailto:vrishank@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
- <div class="column">
-    <div class="card">
-      <img src="images/avatars/umang.jpg" alt="Umang Mathur" style="width:100%">
-      <div class="container">
-        <h2>Umang <br>Mathur</h2>
-        <p class="title">Product, Business &<br>Everything Intangible.<br><br></p>
-        <p></p>
-        <p><button onclick="window.location.href = 'mailto:umang@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  
-</div>
-<div class="row">
-
-
-  <div class="column">
-    <div class="card">
-      <img src="images/avatars/shwetank.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Shwetank <br>Panwar</h2>
-        <p class="title">Biomed,<br>Neuroscience.<br><br></p>
-        <p></p>
-        <p><button onclick="window.location.href = 'mailto:shwetank@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <img src="images/avatars/vicky.jpg" alt="Jane" style="width:100%">
-      <div class="container">
-        <h2>Vignesh<br>Kumar S</h2>
-        <p class="title">Designer,<br>Tech Savvy.<br><br></p>
-        <p></p>
-        <p><button onclick="window.location.href = 'mailto:vicky@mitochondrial.in'" class="button">Contact</button></p>
-      </div>
-    </div>
-  </div>
-
-</div>    </section> <!-- end s-works -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact">
-
-        <div class="row section-header" data-aos="fade-up">
-            <div class="col-full">
-                <h3 class="subhead subhead--light">Contact Us</h3>
-                <h1 class="display-1 display-1--light">Get in touch, ask us your questions, and help us support our healthcare workers through this pandemic.</h1>
-            </div>
-        </div> <!-- end section-header -->
-
-        <div class="row">
-
-            <div class="col-full contact-main" data-aos="fade-up">
-                <p>
-                <a href="mailto:#0" class="contact-email">team@mitochondrial.in</a>
-                <span class="contact-number">+91 9462 747129  /  +91 8309 685918</span>
-                </p>
-            </div> <!-- end contact-main -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Where To Find Us</h3>
-
-                <p class="contact-address">
-                    IIT Guwahati<br>
-                    Guwahati, Assam<br>
-                    781039 IN
-                </p>
-            </div> <!-- end contact-secondary -->
-
-            <div class="col-five tab-full contact-secondary" data-aos="fade-up">
-                <h3 class="subhead subhead--light">Follow Us</h3>
-
-                <ul class="contact-social">
-                    <li>
-                        <a href="#0"><i class="fab fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#0"><i class="fab fa-instagram"></i></a>
-                    </li>
-                </ul> <!-- end contact-social -->
-
-                <div class="contact-subscribe">
-                    <form id="mc-form" class="group mc-form" novalidate="true">
-                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
-                        <input type="submit" name="subscribe" value="Subscribe">
-                        <label for="mc-email" class="subscribe-message"></label>
-                    </form>
-                </div> <!-- end contact-subscribe -->
-            </div> <!-- end contact-secondary -->
-
-        </div> <!-- end row -->
-
-        <div class="row">
-            <div class="col-full cl-copyright">
-                <span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span> 
-            </div>
-        </div>
-
-        <div class="cl-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
-        </div>
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- photoswipe background
-    ================================================== -->
-    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
-
-        <div class="pswp__bg"></div>
-        <div class="pswp__scroll-wrap">
-
-            <div class="pswp__container">
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-                <div class="pswp__item"></div>
-            </div>
-
-            <div class="pswp__ui pswp__ui--hidden">
-                <div class="pswp__top-bar">
-                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
-                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
-                    "Zoom in/out"></button>
-                    <div class="pswp__preloader">
-                        <div class="pswp__preloader__icn">
-                            <div class="pswp__preloader__cut">
-                                <div class="pswp__preloader__donut"></div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                    <div class="pswp__share-tooltip"></div>
-                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
-                "Next (arrow right)"></button>
-                <div class="pswp__caption">
-                    <div class="pswp__caption__center"></div>
-                </div>
-            </div>
-
-        </div>
-
-    </div> <!-- end photoSwipe background -->
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader">            
-        </div>
-    </div>
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+    <h1 class="caption">Teaching Machines The Human Way</h1>
 
 </body>
-
 </html>
